@@ -134,13 +134,6 @@
  
 }
 
-.botao-link{
-
-text-decoration: none; 
-color: #474747;
-
-}
-
 .table{
 
   width: 100%;
@@ -148,3 +141,42 @@ color: #474747;
   table-layout: fixed;
   text-align: center;
        }
+
+.button-downloadpdf{
+
+  display: block;  
+  margin-inline: 70%;
+  width: 150px;
+  height: 40px;
+  background-color: #222C3F;
+  color: white;
+  border-radius: 10px
+}
+
+.button-remover{
+
+  display: block;  
+  margin-inline: 0%;
+  width: 100px;
+  height: 40px;
+  background-color: white;
+  border: 1px white ;
+  border-radius: 0px 5px 5px 0px;
+  color: #D86B00;
+ 
+}
+
+.button-visualizar{
+
+  display: block;  
+  margin-inline: 0%;
+  width: 100px;
+  height: 40px;
+  background-color: white;
+  border-width: 1px 0px 1px 1px;
+  border: 1px white;
+  border-right: 1px solid rgb(25, 25, 25);
+  border-radius: 5px 0px 0px 5px;
+  color:  #003BAC;
+ 
+}
