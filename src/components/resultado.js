@@ -8,8 +8,6 @@ import Curriculo from './curriculo';
 import getcandidato from './candidato';
 
 
-
-
 function MyVerticallyCenteredModal(props) {
   return (
     <Modal 
@@ -42,7 +40,7 @@ function MyVerticallyCenteredModal(props) {
 export default function Resultado (){
   const [modalShow, setModalShow] = useState(false);
   
-  const [candidato, setListaCandidato] = useState([]);
+  const [candidatos, setListaCandidato] = useState([]);
 
       
   useEffect(() => {
@@ -83,8 +81,8 @@ export default function Resultado (){
 
                 {
                 
-                candidato.map(candidato => {
-                return(
+                candidatos.map(candidato => 
+                
                 <tr>
 
                 <td>{candidato.firstname}</td>
@@ -103,7 +101,7 @@ export default function Resultado (){
                 </td>
                 
                 </tr>
-                )})
+                )
                 }
                
                
@@ -124,5 +122,3 @@ export default function Resultado (){
    
     )
 }
-
-

@@ -1,7 +1,7 @@
 
 export default function getcandidato() {
 
-    return ({
+    return [{
         firstname:'Joyce',
         lastname:'Andrade', 
         identificationDocument:'', 
@@ -35,8 +35,80 @@ export default function getcandidato() {
         companyName:'',
         activitiesPerformed:'',
         area_interest:'',
-        linkedinProfileUrl:''}
+        linkedinProfileUrl:''},
 
-    );
+        {
+            firstname:'Jessica',
+            lastname:'Andrade', 
+            identificationDocument:'', 
+            email:'jessica@gmail.com',    
+            birthdate:'', 
+            gender:'',
+            phoneNumber:'2278903492',
+            mobileNumber:'2278903492',
+            disability:'',
+            disability_type:'',
+            country:'',
+            addressZipCode:'',
+            state:'',
+            city:'',
+            addressState:'',
+            addressNumber:'',
+            course:'',
+            level:'',
+            status:'',
+            institution:'',
+            formation:'',
+            courseStart:'',
+            courseEnd:'',
+            startMonth:'',
+            startYear:'',
+            endMonth:'',
+            endYear:'',
+            languages:'',
+            languages_skill:'',
+            role:'',
+            companyName:'',
+            activitiesPerformed:'',
+            area_interest:'',
+            linkedinProfileUrl:''},
+
+           { firstname:'Adriana',
+            lastname:'Andrade', 
+            identificationDocument:'', 
+            email:'adriana@gmail.com',    
+            birthdate:'', 
+            gender:'',
+            phoneNumber:'2278903492',
+            mobileNumber:'2278903492',
+            disability:'',
+            disability_type:'',
+            country:'',
+            addressZipCode:'',
+            state:'',
+            city:'',
+            addressState:'',
+            addressNumber:'',
+            course:'',
+            level:'',
+            status:'',
+            institution:'',
+            formation:'',
+            courseStart:'',
+            courseEnd:'',
+            startMonth:'',
+            startYear:'',
+            endMonth:'',
+            endYear:'',
+            languages:'',
+            languages_skill:'',
+            role:'',
+            companyName:'',
+            activitiesPerformed:'',
+            area_interest:'',
+            linkedinProfileUrl:''}
+    
+
+    ]
 
 }
