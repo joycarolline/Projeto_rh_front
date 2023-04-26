@@ -2,8 +2,10 @@ import { Button, ButtonGroup, Table } from 'reactstrap';
 import BarraMenu from "./barramenu";
 import { Link } from 'react-router-dom';
 import Arrow1 from './Imagens/Arrow1.png';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Modal from 'react-bootstrap/Modal'; 
+import Curriculo from './curriculo';
+import getcandidato from './candidato';
 
 
 
@@ -23,9 +25,11 @@ function MyVerticallyCenteredModal(props) {
       </Modal.Header>
       <Modal.Body>
         <h5>Nome do candidato</h5>
+        <br/>
         <p>
-        Aqui tem que aparecer todas as informações sobre o candidato
-          
+             
+        <Curriculo/>
+        
         </p>
       </Modal.Body>
       <Modal.Footer>
@@ -37,6 +41,14 @@ function MyVerticallyCenteredModal(props) {
 
 export default function Resultado (){
   const [modalShow, setModalShow] = useState(false);
+  
+  const [candidato, setListaCandidato] = useState([]);
+
+      
+  useEffect(() => {
+    setListaCandidato (getcandidato());
+  }, [])
+
 
     return(
 
@@ -69,10 +81,14 @@ export default function Resultado (){
             </thead>
             <tbody>
 
-               {
+                {
+                
+                candidato.map(candidato => {
+                return(
                 <tr>
-                <td></td>
-                <td></td>
+
+                <td>{candidato.firstname}</td>
+                <td>{candidato.email}</td>
                 <td>
 
                 <ButtonGroup>
@@ -81,14 +97,17 @@ export default function Resultado (){
                  <MyVerticallyCenteredModal
                  show={modalShow}
                   onHide={() => setModalShow(false)}/>
-                <input class="button-remover" type="button" value="Remover"/>
+                <input class="button-remover" type="button"s value="Remover"/>
                 </ButtonGroup>
 
                 </td>
+                
                 </tr>
-
-               }
-
+                )})
+                }
+               
+               
+               
             </tbody>
 
 

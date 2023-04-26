@@ -6,21 +6,7 @@
 
 }
 
-.resultados{
 
-  float: left;/*propriedade indicando que a Área flutuará a esquerda*/
-  width: 25%; /*Ocupando 24% da largura total destinada para o corpo*/
-  height: 500px; /*Altura de 500 pixels*/
-  border: 1px solid #9E9C9C;
-}
-
-.conteudo{
-  /* background-color: #f6f5f5;Cor de fundo*/
-  float: right;/*propriedade indicando que a Área flutuará a direita*/
-  width: 100%;/*Ocupando 74% da largura total destinada para o corpo*/
-  height: 500px;/*Altura de 494 pixels*/
-  border-top: 1px solid #c4c4c4;
-}
 
 .bg-light {
 
@@ -37,6 +23,15 @@
   }
 
 .custom-select{
+
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.20);
+  border-radius: 8px;
+  border: 1px solid #DEDEDE;
+  text-align: center;
+  
+}
+
+.custom-select-cadastro{
 
   box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.20);
   border-radius: 8px;
@@ -179,4 +174,171 @@
   border-radius: 5px 0px 0px 5px;
   color:  #003BAC;
  
+}
+
+
+
+
+.primeiraQuebraDeLinha {
+  height: 20px;
+  background:  #222C3F;
+  border:none;
+  box-shadow: 6px 6px 12px;
+  
+}
+
+
+
+.textarea {
+  padding: 10px;
+  max-width: 100%;
+  line-height: 25px;
+  border-radius: 5px;
+  border: 1px solid  #DEDEDE;
+  box-shadow: 4px 4px 4px #999;
+ 
+ }
+
+
+.button-enviar{
+
+
+  display: block;  
+  margin-inline: 40%;
+  width: 250px;
+  height: 50px;
+  background-color: #222C3F;
+  color: white;
+  border-radius: 10px;
+  cursor:pointer;
+  transition: all 0.9s;
+  
+}
+
+.comentario{
+
+height: 80px;
+Position:absolute;
+
+}
+
+.button-adicionar{
+
+
+  display: block;  
+  margin-inline: 80%;
+  width: 170px;
+  height: 35px;
+  background-color: #ef6502;
+  color: white;
+  border-radius: 10px;
+  cursor:pointer;
+  transition: all 0.9s;
+  
+}
+
+.custom-select-cadastro{
+  width: 470px;
+}
+
+
+.idiomas-label-cadastro{
+  margin-right: 0%;
+}
+
+
+.interesse-opcao{
+  
+  margin-right: 5%;
+}
+
+.nivel-label-cadastro{
+  margin-inline: 0%;
+}
+.formacao-label-cadastro{
+  margin-right: 10%;
+}
+.status-label-cadastro{
+  margin-inline: 5%;
+}
+
+
+.pais-label-cadastro{
+
+  margin-inline: 8.8%;
+}
+
+.localizacao-opcao-cadastro{
+
+  margin-inline: 0%;
+}
+
+.escolaridade-opcao-cadastro{
+
+  margin-inline: 0%;
+}
+
+.status-opcao-cadastro{
+
+  margin-inline: 0%;
+}
+
+.idiomas-opcao-cadastro{
+
+  margin-inline: 2%;
+}
+
+.deficiencia-opcao-cadastro{
+
+  margin-inline: 0%;
+}
+
+.genero-opcao-cadastro{
+
+  margin-inline: 3%;
+}
+
+.estado-label-cadastro{
+
+  margin-inline: 11%;
+}
+
+.cidade-label-cadastro{
+
+  margin-inline: 11%;
+}
+
+
+
+.botao-link{
+
+text-decoration: none; 
+color: #474747;
+
+}
+
+
+.custom-select-listagem{
+box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.20);
+border-radius: 8px;
+border: 1px solid #DEDEDE;
+text-align: left;
+width: 131px;
+}
+
+.button-buscar{
+display: block;  
+margin-inline: 40%;
+width: 250px;
+height: 50px;
+background-color: #222C3F;
+color: white;
+border-radius: 10px
+}
+
+.primeiraQuebraDeLinhaUm {
+height: 20px;
+background:  #222C3F;
+border:none;
+box-shadow: 6px 6px 12px;
 }
