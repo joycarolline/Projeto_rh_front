@@ -2,10 +2,10 @@
 export default function getcandidato() {
 
     return [{
-        firstname:'Joyce',
-        lastname:'Andrade', 
+        firstname:'Alice',
+        lastname:'Maria', 
         identificationDocument:'', 
-        email:'joyce@gmail.com',    
+        email:'alice@gmail.com',    
         birthdate:'', 
         gender:'',
         phoneNumber:'2278903492',
@@ -37,7 +37,7 @@ export default function getcandidato() {
         area_interest:'',
         linkedinProfileUrl:''},
 
-        {
+        /*{
             firstname:'Jessica',
             lastname:'Andrade', 
             identificationDocument:'', 
@@ -106,7 +106,7 @@ export default function getcandidato() {
             companyName:'',
             activitiesPerformed:'',
             area_interest:'',
-            linkedinProfileUrl:''}
+            linkedinProfileUrl:''}*/
     
 
     ]

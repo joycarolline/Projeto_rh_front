@@ -11,6 +11,7 @@
               
                 <Navbar.Brand href="#">
                   <img src = {taking}
+                   alt = "logo"
                    width="64"
                    height="36"
                 

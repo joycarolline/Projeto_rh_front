@@ -13,8 +13,9 @@ function App() {
         <Route path = "/" element = {<Pesquisa/>} />
         <Route path = "resultado" element = {<Resultado/>} />
         <Route path = "/curriculo" element = {<Curriculo/>} />
-
-
+        <Route path = "/edicao" element = {<Curriculo/>} />
+        <Route path = "/cadastro" element = {<Curriculo/>} />
+        
       </Routes>
 
     </div>

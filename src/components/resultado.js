@@ -12,7 +12,7 @@ function MyVerticallyCenteredModal(props) {
   return (
     <Modal 
       {...props}
-      size="lg"
+      size="xl"
       aria-labelledby="contained-modal-title-vcenter"
       centered
     >
@@ -39,7 +39,7 @@ function MyVerticallyCenteredModal(props) {
 
 export default function Resultado (){
   const [modalShow, setModalShow] = useState(false);
-  
+
   const [candidatos, setListaCandidato] = useState([]);
 
       
@@ -47,7 +47,7 @@ export default function Resultado (){
     setListaCandidato (getcandidato());
   }, [])
 
-
+ 
     return(
 
         <>
@@ -59,6 +59,7 @@ export default function Resultado (){
         <h6>Exibindo resultados</h6>
         <Button color="link" tag={Link} to="/" > 
                  <img src = {Arrow1} 
+                   alt = "flecha"
                    width="18"
                    height="11"
                    /> Editar filtros
@@ -95,7 +96,9 @@ export default function Resultado (){
                  <MyVerticallyCenteredModal
                  show={modalShow}
                   onHide={() => setModalShow(false)}/>
-                <input class="button-remover" type="button"s value="Remover"/>
+                  
+                <input class="button-remover" type="button"s value="Remover" onClick={() => setModalShow(true)} />
+
                 </ButtonGroup>
 
                 </td>
@@ -111,11 +114,7 @@ export default function Resultado (){
 
          </Table>
          
-           <Modal>
 
-
-           </Modal>
-      
          </div>
         </>
         

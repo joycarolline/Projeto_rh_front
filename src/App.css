@@ -54,7 +54,7 @@
 
 
   display: block;  
-  margin-inline: 70%;
+  margin-inline: 72.5%;
   width: 200px;
   height: 40px;
   background-color: #222C3F;
@@ -69,13 +69,13 @@
 
 
 .idioma-label{
-  margin-right: 12%;
+  margin-right: 13%;
 }
 .nivel-label{
   margin-inline: 6%;
 }
 .formacao-label{
-  margin-right: 10%;
+  margin-right: 10.5%;
 }
 .status-label{
   margin-inline: 5%;
@@ -91,7 +91,7 @@
 
 .pais-label{
 
-  margin-inline: 8.8%;
+  margin-inline: 10%;
 }
 
 .localizacao-opcao{

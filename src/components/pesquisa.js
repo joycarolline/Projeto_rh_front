@@ -1,6 +1,8 @@
 
-import { Form, Label, Input } from "reactstrap";
+import { Form } from "reactstrap";
 import BarraMenu from "./barramenu";
+import Resultado from "./resultado";
+
 
 export default function Pesquisa (){
 
@@ -90,7 +92,7 @@ return(
                 </div>
              </div>
              <br/>
-             <input class="button-pesquisa" type="button" value="Pesquisar"></input>
+             <input class="button-pesquisa" type="button" value="Pesquisar"  ></input>
              
              
             
@@ -228,7 +230,7 @@ return(
                 </div>
              
             <br/>
-            <input class="button-pesquisa" type="button" value="Pesquisar"></input>
+            <input class="button-pesquisa" type="button" value="Pesquisar" onClick={Resultado}></input>
         </Form>
         
         </body>
