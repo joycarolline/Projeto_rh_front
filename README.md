@@ -27,7 +27,7 @@ cd nome-do-repositorio
 -   [Joyce Andrade](https://github.com/joycarolline)
 
 
-## Techs Front
+## Techs 
 
 -   React
 
