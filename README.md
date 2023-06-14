@@ -3,8 +3,9 @@
 
 # Projeto Taking
 
-Veja o resumo desta parte do projeto no [Behance] (https://www.behance.net/gallery/172105485/Sistema-de-gestao-de-curriculos-Taking)!
-Veja o código final do projeto [aqui] (https://github.com/avillagabriella/sistema-taking-rh)!
+Veja o resumo desta parte do projeto no [Behance](https://www.behance.net/gallery/172105485/Sistema-de-gestao-de-curriculos-Taking)!
+
+Veja o código final do projeto [aqui](https://github.com/avillagabriella/sistema-taking-rh)!
 
  ## Como executar
 
@@ -23,7 +24,7 @@ cd nome-do-repositorio
 
 -   [Jessica Baron](https://github.com/BaronJessica)
 -   [Adriana Pacheco](https://github.com/dricafpsilva)
--   [Joyce Andrade] (https://github.com/joycarolline)
+-   [Joyce Andrade](https://github.com/joycarolline)
 
 
 ## Techs Front
